@@ -72,3 +72,11 @@ ufw_applications:
 openssh_server_settings:
   # Stop accepting locale on the server
   AcceptEnv: LANG
+
+# Http proxy settings
+
+#proxy_env:
+#  http_proxy: <proxy_addr>
+#  https_proxy: <proxy_addr>
+
+#pip_extra_args: "--proxy=<proxy_addr>"
